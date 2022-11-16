@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+root 'pots#index'
 
   resources :posts do
     collection do
